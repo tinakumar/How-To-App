@@ -1,0 +1,15 @@
+== How To App ==
+
+The how to app will allow you to share step by step instructions to complete a particular task. It is very easy to use and share with friends.
+
+Simple walkthrough:
+
+Click on: "New List"
+
+Add the details for this particular list and then click "Create List".
+
+If you are ready, click on "Add Steps". You can also edit your list or go back to the main page.
+
+After adding a step, you can see any steps that have already been entered so far, go back or continue adding steps. You can also see the steps that have been added by clicking the "Show" link next to a particular How To List.
+
+That's about it. Hope you enjoyed this How To!

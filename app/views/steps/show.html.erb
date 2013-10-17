@@ -1,0 +1,16 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @step.description %>
+</p>
+
+<p>
+  <strong>List:</strong>
+  <%= @step.list.name %>
+</p>
+
+<%= link_to 'Edit', edit_list_step_path(@step.list, @step) %> |
+<%= link_to 'Show Current Steps', list_steps_path(@step.list, @step) %> |
+<%= link_to 'Add Another Step', new_list_step_path(@step.list, @step) %> |
+

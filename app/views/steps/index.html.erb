@@ -1,0 +1,29 @@
+<h1>Listing Steps for Current How To:</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Description</th>
+      <th>List</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @steps.each do |step| %>
+      <tr>
+        <td><%= step.description %></td>
+        <td><%= step.list.name %></td>
+        <td><%= link_to 'Show', list_step_path(step.list, step) %></td>
+        <td><%= link_to 'Edit', edit_list_step_path(step.list, step) %></td>
+        <td><%= link_to 'Mark Complete', [step.list, step], method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Step', new_list_step_path %>
